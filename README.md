@@ -12,7 +12,7 @@ Selected work from the **Internet Measurement** course at the University of Tehr
 
 The phase-three benchmark compares insertion, selection, and bubble sort. The source in this repository is a portfolio edition of the original small C++ benchmark: it uses a fixed random seed, repeated wall-clock measurements, equal input for every algorithm, and a sorted-output check. This improves reproducibility; the original 2024 measurements in the report are not claimed to have been produced by the updated source.
 
-The shared [Elastic Stack lab](projects/elastic-stack-lab/README.md) is a newly written, runnable reconstruction of the monitoring and threat-event workflow from phases one and two. The archived submissions contained reports and screenshots, but no original Elastic configuration files. Its events are synthetic, and its local Docker integration has not been executed on this machine because Docker is not installed here.
+The shared [Elastic Stack lab](projects/elastic-stack-lab/README.md) is a newly written reconstruction of the monitoring and threat-event workflow from phases one and two, with code and execution instructions. The archived submissions contained reports and screenshots, but no original Elastic configuration files. Its events are synthetic, and its local Docker integration has not been executed on this machine because Docker is not installed here.
 
 ### Reproduce the phase-three benchmark
 

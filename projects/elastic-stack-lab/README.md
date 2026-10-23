@@ -18,6 +18,8 @@ Open Kibana at <http://127.0.0.1:5601>, create a data view for `filebeat-*` usin
 
 Stop the lab with `docker compose down`. To analyze authorized real traffic later, replace `data/eve.json` with EVE JSON from your own Suricata deployment and adapt the input path as needed. Do not commit real packet captures or personal network logs.
 
+The event generator, its tests, and the YAML files were checked locally. Docker is not installed on this workstation, so the live Elasticsearch/Filebeat ingestion path has not yet been verified here. The `check_alerts.py` command above performs that verification on a machine with Docker.
+
 The submitted [phase-one](../01-network-monitoring/report-fa.pdf) and [phase-two](../02-threat-detection/report-fa.pdf) reports document the historical course work. This reconstruction focuses on the common Elastic/Filebeat path and a small threat-event query; the reports also discuss other tools such as Suricata, NetFlow, and Metricbeat that are not run by this lab.
 
 Configuration follows the [Elastic Docker quickstart](https://www.elastic.co/search-labs/tutorials/install-elasticsearch/docker), [Filebeat Docker guide](https://www.elastic.co/docs/reference/beats/filebeat/running-on-docker), and [filestream input guide](https://www.elastic.co/docs/reference/beats/filebeat/filebeat-input-filestream). All three images are pinned to the same Elastic Stack version.
