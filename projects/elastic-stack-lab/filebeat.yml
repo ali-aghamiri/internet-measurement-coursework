@@ -1,0 +1,18 @@
+filebeat.inputs:
+  - type: filestream
+    id: internet-measurement-eve
+    enabled: true
+    paths:
+      - /usr/share/filebeat/input/eve.json
+    parsers:
+      - ndjson:
+          target: ""
+          add_error_key: true
+    fields:
+      lab: internet-measurement
+    fields_under_root: true
+
+output.elasticsearch:
+  hosts: ["http://elasticsearch:9200"]
+
+setup.ilm.enabled: false

@@ -9,3 +9,4 @@ __pycache__/
 *.csv
 *.pcap
 *.pcapng
+projects/elastic-stack-lab/data/eve.json
