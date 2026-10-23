@@ -1,0 +1,6 @@
+sort_benchmark
+sort_benchmark.exe
+*.o
+*.obj
+.DS_Store
+__pycache__/
