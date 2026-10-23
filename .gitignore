@@ -4,3 +4,8 @@ sort_benchmark.exe
 *.obj
 .DS_Store
 __pycache__/
+.pytest_cache/
+.venv/
+*.csv
+*.pcap
+*.pcapng

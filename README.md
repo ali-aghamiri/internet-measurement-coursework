@@ -31,8 +31,8 @@ The optional arguments are the number of integers and repetitions. The program p
 | 2 | Packet inspection with Wireshark | [PDF](homework/02-wireshark.pdf) |
 | 3 | Distributed tracing concepts and Jaeger | [PDF](homework/03-jaeger.pdf) |
 | 4 | Timing experiments and dynamic voltage/frequency scaling | [PDF](homework/04-timing-dvfs.pdf) |
-| 5 | Data-cleaning workflow in Python | [PDF](homework/05-data-cleaning.pdf) |
+| 5 | Data-cleaning workflow in Python | [PDF](homework/05-data-cleaning.pdf), [runnable code](homework/05-data-cleaning/README.md) |
 
 ## Scope and attribution
 
-The reports are selected from my own 2024 submissions. The three project reports were coauthored with Amir Amin. Student ID numbers have been removed from these public PDF copies. I served as a teaching assistant in a later term; student submissions and teaching materials from that term are excluded. Course handouts, third-party templates, videos, binaries, and datasets are also excluded.
+The reports are selected from my own 2024 submissions. The three project reports were coauthored with Amir Amin. Student ID numbers have been removed from these public PDF copies. I served as a teaching assistant in a later term; student submissions and teaching materials from that term are excluded. Course handouts, third-party templates, videos, binaries, and datasets are also excluded. The homework-five script is a cleaned, runnable edition of my original notebook; its patient-level input and notebook outputs are omitted.
